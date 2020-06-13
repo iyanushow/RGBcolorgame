@@ -1,21 +1,28 @@
 
 main
 {
-    height: 70%;
+    height: 80%;
     width: 100%;
     background-color: $back-color;
 }
 .container
 {
     max-width: 600px;
-    margin: 0 auto;
+    margin:auto;
     .square
     {
         width: 30%;
         background: purple;
         padding-bottom: 30%;
         float: left;
-        margin: 1.66%;
+        margin: 25px 1.66% auto ;
         border-radius: 20px;
+        transition: background 0.6s ease-out;
+       
     }
+}
+
+.hide
+{
+    display: none;
 }
