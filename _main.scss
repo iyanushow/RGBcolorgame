@@ -1,0 +1,21 @@
+
+main
+{
+    height: 70%;
+    width: 100%;
+    background-color: $back-color;
+}
+.container
+{
+    max-width: 600px;
+    margin: 0 auto;
+    .square
+    {
+        width: 30%;
+        background: purple;
+        padding-bottom: 30%;
+        float: left;
+        margin: 1.66%;
+        border-radius: 20px;
+    }
+}

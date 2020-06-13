@@ -1,0 +1,25 @@
+main {
+  height: 70%;
+  width: 100%;
+  background-color: #232323;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container .square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 20px;
+}
+
+body {
+  border: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=styling.css.map */
