@@ -1,12 +1,12 @@
 main {
-  height: 70%;
+  height: 80%;
   width: 100%;
   background-color: #232323;
 }
 
 .container {
   max-width: 600px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .container .square {
@@ -14,8 +14,80 @@ main {
   background: purple;
   padding-bottom: 30%;
   float: left;
-  margin: 1.66%;
+  margin: 25px 1.66% auto;
   border-radius: 20px;
+  -webkit-transition: background 0.6s ease-out;
+  transition: background 0.6s ease-out;
+}
+
+.hide {
+  display: none;
+}
+
+.top-bar {
+  background-color: #4682b4;
+  height: 20%;
+  text-align: center;
+  font-family: "Montserrat", "Avenir", 'Courier New', Courier, monospace;
+  color: whitesmoke;
+}
+
+.top-bar h1, .top-bar span {
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.top-bar span {
+  font-size: 300%;
+}
+
+.nav-bar {
+  background: #fffcfc;
+  height: 30px;
+  text-align: center;
+}
+
+.nav-bar p, .nav-bar span {
+  display: inline-block;
+  margin: 3px 20px;
+  padding: 0 auto;
+}
+
+.nav-bar button {
+  height: 100%;
+  border: none;
+  background: none;
+  color: steelblue;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: inherit;
+  outline: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.nav-bar button:hover, .nav-bar button :active {
+  color: whitesmoke;
+  background-color: steelblue;
+  border: none;
+}
+
+#status {
+  display: inline-block;
+  width: 30%;
+  color: steelblue;
+}
+
+button.selected {
+  color: whitesmoke;
+  background-color: steelblue;
+}
+
+@media (max-width: 518px) {
+  .top-bar span {
+    font-size: 200%;
+  }
 }
 
 body {
