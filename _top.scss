@@ -74,3 +74,28 @@ button.selected
         }
     }
 }
+
+@media (max-width:416px)
+{
+    #status
+    {
+        display: inline-block;
+        width: 10%;
+        color:steelblue ;
+    }
+
+    button
+    {
+        // width: 60px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:323px)
+{
+    .nav-bar
+    {
+        display: flex;
+
+    }
+}
