@@ -1,16 +1,17 @@
 
 <h1 align="center">RGBcolorgame</h1>
+
+
+[![rgb](https://user-images.githubusercontent.com/62676042/130665586-330a7485-e6fc-48b2-aad3-90ef69bce77e.png)](https://iyanushow.github.io/RGBcolorgame/)
+
 ### Overview
-
-[<img alt='rgb color game' src='https://ibb.co/mJRw1V5' />](https://iyanushow.github.io/RGBcolorgame/)
-
 Code repository for a simple Javascript color guessing game. RGB color game effectively implements JS functional programming, the  random object and javascript DOM manipulation. Code base written primarily in Sass and vanilla javascript.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [CSS]
+- CSS
 - [ReactJS](https://reactjs.org/)
 
 
